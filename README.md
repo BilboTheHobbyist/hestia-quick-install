@@ -1,7 +1,6 @@
-# Example php class for creating an Quick Install App for Hestia CP
+# Php class for creating an Quick Install Selfoss for Hestia CP
 
-In Hestia CP 1.4 we have decided to improve the Quick installer "App" to enable more flexibility in the near feature. 
-With the new system users can simply upload a folder into /usr/local/hestia/web/src/app/WebApp/Installers/ and if the folder (AppName) contains a file name AppNameSetup.php it will add to the available apps list. 
+It should just create the ```config.ini``` file.
 
 ## Creating new apps
 

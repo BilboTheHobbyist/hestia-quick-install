@@ -1,22 +1,22 @@
 <?php
 
-namespace Hestia\WebApp\Installers\Example;
+namespace Hestia\WebApp\Installers\Selfoss;
 
 use Hestia\System\Util;
 use \Hestia\WebApp\Installers\BaseSetup as BaseSetup;
 
-class ExampleSetup extends BaseSetup {
+class SelfossSetup extends BaseSetup {
 
     protected $appInfo = [ 
-        'name' => 'Example',
+        'name' => 'Selfoss',
         'group' => 'cms',
         //keep always set to enabled. When PHP version isn't supported it will change it to no and disable it
         'enabled' => true,
         'version' => 'latest',
-        'thumbnail' => 'example.png' //Max size is 300px by 300px 
+        'thumbnail' => 'selfoss.png' //Max size is 300px by 300px 
     ];
     
-    protected $appname = 'example';
+    protected $appname = 'selfoss';
     protected $config = [
         'form' => [
             //Note at least one input field is currently required
